@@ -1,0 +1,40 @@
+{
+ "name": "Presupuestos Casas",
+ "short_name": "Presupuestos Casas",
+ "lang": "es-CL",
+ "description": "Presupuestos de casas de madera en Chile con visor 3D, precio de venta y margen, y precios actualizados cada semana.",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#eef0f1",
+ "theme_color": "#a3602a",
+ "icons": [
+  {
+   "src": "img/icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "img/icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "img/icons/icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "Catálogo",
+   "url": "./#catalogo"
+  },
+  {
+   "name": "Precios",
+   "url": "./#precios"
+  }
+ ]
+}
